@@ -1,0 +1,137 @@
+/*@import url('https://fonts.googleapis.com/css?family=B612|Open+Sans&display=swap');*/
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+
+}
+
+body {
+  background-color: #F1F0EC;
+  font-family: 'Open Sans', sans-serif;
+  color: #576c75;
+  font-size: 18px;
+  line-height: 35px;
+  /*font-weight: 300;*/
+}
+
+h1 {
+  margin-top: 1px;
+  margin-bottom: 33px;
+  font-size: 32px;
+  font-family: 'PT Sans', sans-serif;
+  color: #475860;
+}
+
+h2 {
+  margin-bottom: 23px;
+  font-size: 27px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+p {
+  margin-bottom: 37px;
+}
+
+.p-first {
+  margin-bottom: 0;
+  margin-top: 23px;
+}
+
+.p-others {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.thin-card {
+  background-color: white;
+  padding: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  size: 50;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 47px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-green {
+  background-color: #2B9D8F;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 4px;
+  color: white;
+  /*font-family: 'B612', sans-serif;*/
+}
+
+.link {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.link:hover {
+  text-decoration: none;
+  /*background-color: #302F2F;*/
+  opacity: 0.8;
+}
+
+.link-social {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.link-social:hover {
+  opacity: 0.7;
+  }
+
+.fa-github {
+  color: #302F2F;
+}
+
+.fa-twitter {
+  color:#249FF3;
+}
+
+.fa-instagram {
+  color:#DD465A;
+}
